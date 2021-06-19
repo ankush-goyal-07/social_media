@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ankush-goyal-07/social_media/static/css/main.10ab4bff.chunk.css",
-    "main.js": "/ankush-goyal-07/social_media/static/js/main.1388e4df.chunk.js",
-    "main.js.map": "/ankush-goyal-07/social_media/static/js/main.1388e4df.chunk.js.map",
-    "runtime-main.js": "/ankush-goyal-07/social_media/static/js/runtime-main.dae007fc.js",
-    "runtime-main.js.map": "/ankush-goyal-07/social_media/static/js/runtime-main.dae007fc.js.map",
-    "static/js/2.b7e88da3.chunk.js": "/ankush-goyal-07/social_media/static/js/2.b7e88da3.chunk.js",
-    "static/js/2.b7e88da3.chunk.js.map": "/ankush-goyal-07/social_media/static/js/2.b7e88da3.chunk.js.map",
-    "index.html": "/ankush-goyal-07/social_media/index.html",
-    "static/css/main.10ab4bff.chunk.css.map": "/ankush-goyal-07/social_media/static/css/main.10ab4bff.chunk.css.map",
-    "static/js/2.b7e88da3.chunk.js.LICENSE.txt": "/ankush-goyal-07/social_media/static/js/2.b7e88da3.chunk.js.LICENSE.txt"
+    "main.css": "/social_media/static/css/main.10ab4bff.chunk.css",
+    "main.js": "/social_media/static/js/main.1388e4df.chunk.js",
+    "main.js.map": "/social_media/static/js/main.1388e4df.chunk.js.map",
+    "runtime-main.js": "/social_media/static/js/runtime-main.fa00757f.js",
+    "runtime-main.js.map": "/social_media/static/js/runtime-main.fa00757f.js.map",
+    "static/js/2.b7e88da3.chunk.js": "/social_media/static/js/2.b7e88da3.chunk.js",
+    "static/js/2.b7e88da3.chunk.js.map": "/social_media/static/js/2.b7e88da3.chunk.js.map",
+    "index.html": "/social_media/index.html",
+    "static/css/main.10ab4bff.chunk.css.map": "/social_media/static/css/main.10ab4bff.chunk.css.map",
+    "static/js/2.b7e88da3.chunk.js.LICENSE.txt": "/social_media/static/js/2.b7e88da3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.dae007fc.js",
+    "static/js/runtime-main.fa00757f.js",
     "static/js/2.b7e88da3.chunk.js",
     "static/css/main.10ab4bff.chunk.css",
     "static/js/main.1388e4df.chunk.js"
