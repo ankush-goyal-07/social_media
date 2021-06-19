@@ -2,7 +2,7 @@
   "name": "social-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/ankush-goyal-07/social_media.git",
+  "homepage": "https://ankush-goyal-07.github.io/social_media",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
