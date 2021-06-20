@@ -5,13 +5,12 @@ import { useState } from "react";
 import faker from  'faker';
 
 export default function Post({ post }) {
-  const [like,setLike] = useState(post.like)
-  const [isLiked,setIsLiked] = useState(false)
-
-  const likeHandler =()=>{
-    setLike(isLiked ? like-1 : like+1)
-    setIsLiked(!isLiked)
-  }
+    const [like, setLike] = useState(post.like)
+    const [isLiked , setIsLiked] = useState(false)
+    const likeHandler = () => {
+      setLike(isLiked ? like - 1 : like + 1)
+      setIsLiked(!isLiked)
+    }
   return (
     <div className="post">
       <div className="postWrapper">
@@ -38,7 +37,7 @@ export default function Post({ post }) {
         <div className="postBottom">
           <div className="postBottomLeft">
             <ThumbUpAlt className="likeIcon"  onClick={likeHandler} />
-            <Favorite className="likeIcon" onClick={likeHandler} />
+            <Favorite className="likeIcon" onClick={likeHandler}  />
             <span className="postLikeCounter">{like} people like it</span>
           </div>
           <div className="postBottomRight">
