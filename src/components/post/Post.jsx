@@ -1,16 +1,16 @@
 import "./post.css";
-import { MoreVert , Favorite , ThumbUpAlt} from "@material-ui/icons";
+import { MoreVert } from "@material-ui/icons";
 import { Users } from "../../dummyData";
 import { useState } from "react";
-import faker from  'faker';
 
 export default function Post({ post }) {
-    const [like, setLike] = useState(post.like)
-    const [isLiked , setIsLiked] = useState(false)
-    const likeHandler = () => {
-      setLike(isLiked ? like - 1 : like + 1)
-      setIsLiked(!isLiked)
-    }
+  const [like,setLike] = useState(post.like)
+  const [isLiked,setIsLiked] = useState(false)
+
+  const likeHandler =()=>{
+    setLike(isLiked ? like-1 : like+1)
+    setIsLiked(!isLiked)
+  }
   return (
     <div className="post">
       <div className="postWrapper">
@@ -18,7 +18,7 @@ export default function Post({ post }) {
           <div className="postTopLeft">
             <img
               className="postProfileImg"
-              src={faker.image.avatar()}
+              src={Users.filter((u) => u.id === post?.userId)[0].profilePicture}
               alt=""
             />
             <span className="postUsername">
@@ -32,12 +32,12 @@ export default function Post({ post }) {
         </div>
         <div className="postCenter">
           <span className="postText">{post?.desc}</span>
-          <img className="postImg" src={faker.image.image()} alt="" />
+          <img className="postImg" src={post.photo} alt="" />
         </div>
         <div className="postBottom">
           <div className="postBottomLeft">
-            <ThumbUpAlt className="likeIcon"  onClick={likeHandler} />
-            <Favorite className="likeIcon" onClick={likeHandler}  />
+            <img className="likeIcon" src="social_media/assets/like.png" onClick={likeHandler} alt="" />
+            <img className="likeIcon" src="social_media/assets/heart.png" onClick={likeHandler} alt="" />
             <span className="postLikeCounter">{like} people like it</span>
           </div>
           <div className="postBottomRight">
